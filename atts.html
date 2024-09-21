@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Carros Usados</title>
+    <link rel="stylesheet" href="atte.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Carros Usados</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#cars">Carros</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Encontre o carro dos seus sonhos!</h2>
+            <p>A melhor seleção de carros usados com ótimas condições e preços acessíveis.</p>
+            <a href="#cars" class="btn">Ver Carros Disponíveis</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos especialistas em oferecer carros usados de alta qualidade e com preços competitivos. Nossa missão é proporcionar a melhor experiência de compra para nossos clientes.</p>
+        </div>
+    </section>
+
+    <section id="cars">
+        <div class="container">
+            <h2>Carros Disponíveis</h2>
+            <div class="car-grid">
+                <div class="car-card">
+                    <img src="../Att.htcss/OIP.jpeg" alt="Carro 1">
+                    <h3>Ford Focus 2018</h3>
+                    <p>R$ 50.000</p>
+                    <a href="#" class="btn">Mais Detalhes</a>
+                </div>
+                <div class="car-card">
+                    <img src="car2.jpg" alt="Carro 2">
+                    <h3>Chevrolet Onix 2017</h3>
+                    <p>R$ 45.000</p>
+                    <a href="#" class="btn">Mais Detalhes</a>
+                </div>
+                <div class="car-card">
+                    <img src="car3.jpg" alt="Carro 3">
+                    <h3>Hyundai HB20 2019</h3>
+                    <p>R$ 55.000</p>
+                    <a href="#" class="btn">Mais Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações!</p>
+            <form action="#">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Carros Usados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
