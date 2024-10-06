@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .libre-baskerville-bold {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .libre-baskerville-regular-italic {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+}
+body {
+    background-color: #000;
+    height: 100vh;
+}
+.home {
+    max-height: 1280px;
+    margin: 0 auto;
+}
+header {
+    padding: 40px 4%;
+}
+header > .home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: rgba(255, 255, 255, 0.116);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2.2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.02);
+}
+
+header nav ul{
+    list-style-type: none;
+
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-contato button{
+ padding: 10px 40px;
+ font-size: 20px;
+ font-weight: 560;
+ background-color: rebeccapurple;
+ border: 0;
+ border-radius: 50px;
+ border-radius: 35px;
+ cursor: pointer;
+}
+header .btn-contato button:hover {
+    box-shadow: 0px 0px 9px rgb(111, 74, 148);
+}
